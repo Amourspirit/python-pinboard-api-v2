@@ -27,6 +27,12 @@ dependencies = [
     "requests>=2.32.4",
 ]
 
+[project.urls]
+Homepage = "https://github.com/Amourspirit/python-pinboard-api-v2"
+Documentation = "https://github.com/Amourspirit/python-pinboard-api-v2/?tab=readme-ov-file#pinboard-api-python-wrapper"
+Repository = "https://github.com/Amourspirit/python-pinboard-api-v2"
+Issues = "https://github.com/Amourspirit/python-pinboard-api-v2/issues"
+
 [dependency-groups]
 dev = [
     "dotenv>=0.9.9",

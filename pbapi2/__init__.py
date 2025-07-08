@@ -37,7 +37,7 @@ __all__ = [
 ]
 
 # Package metadata
-__version__ = "0.1.0"
+__version__ = "0.0.3"
 __author__ = ":Barry-Thomas-Paul: Moss"
 __email__ = "pinboardapi2@pm.amourspirit.net"
 __license__ = "MIT"

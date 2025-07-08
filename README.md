@@ -2,12 +2,19 @@
 
 This package provides a convenient Python interface for interacting with the Pinboard V2 API. It abstracts away the low-level HTTP requests and offers a Pythonic way to manage your bookmarks, tags, and notes.
 
+## ON HOLD
+
+This project is on hold. API v2 remains in a draft or incomplete state. The documentation is insufficient, and the endpoints do not behave as described.
+When I started this project I was not aware of the issues with the API v2. I have since learned that the API is not yet ready for production use. I will continue to monitor the API and may resume work on this project in the future.
+
+More info [here](https://www.perplexity.ai/search/pinboard-in-verion-2-of-api-no-J4EGnZLaS0mG5RowFrda2g#0)
+
 ## Installation
 
-This package relies on the `requests` library.
+**DO NOT USE THIS PACKAGE** Not currently published on PyPi
 
 ```bash
-pip install requests
+pip install pinboard-api-v2
 ```
 
 ## Usage

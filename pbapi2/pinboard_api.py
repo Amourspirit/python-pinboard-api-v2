@@ -108,11 +108,14 @@ class PinboardClient:
             PinboardAPIError: For other API-related errors.
         """
         url = f"{self.base_url}{endpoint}/"
-        headers = {"Content-Type": "application/x-www-form-urlencoded"}
+        headers = {
+            "Content-Type": "application/x-www-form-urlencoded",
+            "X-Auth-Token": self.auth_token,
+        }
 
         if params is None:
             params = {}
-        params["auth_token"] = self.auth_token
+        # params["auth_token"] = self.auth_token
 
         try:
             if method.upper() == "GET":
